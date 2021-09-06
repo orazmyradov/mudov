@@ -1,0 +1,205 @@
+body{
+    font-family: Consolas, "Andale Mono WT", "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", "DejaVu Sans Mono", "Bitstream Vera Sans Mono", "Liberation Mono", "Nimbus Mono L", Monaco, "Courier New", Courier, monospace;
+    transition: all 1s;
+    color:#424242;
+    -webkit-user-select: none;
+    -moz-user-select: -moz-none;
+    -ms-user-select: none;
+    user-select: none;
+    height: 100%;
+}
+
+a{
+    color: inherit;
+    text-decoration: none;
+}
+
+.container-section {  
+    height: 100%;
+    width: 100%; 
+}
+.container-box::after {
+    /* Set content to be an attribute on the element */
+    content: attr(data-value); 
+    position: relative;
+    left: 50%;
+    top: 15px;
+    color: gray;
+}
+
+.btn-stop{
+    font-weight: bolder;
+    transition: all .4s;
+    border: none;
+    background: rgb(88, 88, 88);
+    color: white;
+    padding: 6px;
+    /* border-radius: 4px; */
+    position: absolute;
+    top: 2%;
+    font-family: inherit;
+    font-size: inherit;
+    right: 9px;
+    cursor: pointer;
+    z-index: 1000;
+}
+.container-box{
+    -webkit-box-shadow: 6px 6px 22px -1px rgba(128, 128, 128, 0.81);
+    -moz-box-shadow: 6px 6px 22px -1px rgba(128, 128, 128, 0.81);
+    box-shadow: 6px 6px 22px -1px rgba(128, 128, 128, 0.81);
+    width: 90%;
+    background: #ffffffc7;
+    transition: all 1s;
+    margin: 14% auto;
+    padding: 30px;  
+    text-align: center;
+    position: relative;
+}
+
+.hello-myname{
+    font-size: xx-large;
+    box-shadow: 3px 3px 6px -1px rgb(148 148 148 / 50%);
+    background: white;
+    padding: 2px 23px;
+    width: fit-content;
+    margin: auto;
+}
+.current-title{
+    font-size: large;
+    text-align: center;
+    width: fit-content;
+    margin: 7px auto;
+    box-shadow: 3px 3px 6px -1px rgb(148 148 148 / 50%);
+    background: white;
+    padding: 2px 23px;
+}
+#socil-icons{
+    padding: 0;
+    color: #585858;
+}
+#socil-icons li{
+    display: inline;
+    margin: 0px 5px;
+}
+ 
+#socil-icons .iconi{
+    font-size: 30px;
+    color: black !important;
+}
+
+.italic-larger-txt{
+    font-size: larger; 
+    font-style: italic;
+
+}
+
+
+@keyframes typingEffect {
+    from {opacity: 1;}
+    to {opacity: 0;}
+  }
+   
+  #typing-effect {   
+    animation: typingEffect .5s infinite alternate;
+    color: black;
+    font-weight: bolder;
+  }
+
+  .footer{
+    z-index: 1000;
+    text-align: center; 
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;   
+    text-align: center;
+    margin-bottom: 9px;
+  }
+  @media  (max-width:1000px){
+      #meInTheWorld{
+          position: absolute;
+          bottom: -94px !important;
+          left: 4px;
+      }
+      .hello-myname{
+          font-size: xx-large;
+          box-shadow: 3px 3px 6px -1px rgb(148 148 148 / 50%);
+          background: white;
+          padding: 2px 4px !important;
+      }
+      .hello-myname .name{
+          /*display: block!;*/
+      }
+      .hello-myname .hi{
+          font-size: 25px !important;
+      }
+      .hello-myname .this-is{
+          font-size: 18px !important;
+          margin-right: -10px !important;
+      }
+      header{
+          text-align: left !important;
+          margin-bottom: 10px;
+      }
+      .container-box{
+          margin: 32% auto !important;
+      }
+      .current-title{
+          padding: 2px 4px;
+      }
+
+  }
+
+
+#meInTheWorld{
+    position: absolute;bottom: -17px;left: 4px;
+}
+#meInTheWorld .years{
+    font-size: xx-large;
+    font-weight: 800;
+    width: fit-content;
+    color: white;
+    background: black;
+    padding: 0px 4px;
+}
+#meInTheWorld .months{
+    /*font-size: x-large;*/
+    /*font-weight: 600;*/
+    /*width: fit-content;*/
+    /*color: white;*/
+    /*background: black;*/
+    /*padding: 0px 4px;*/
+    /*display: block;*/
+    font-size: x-large;
+    font-weight: 600;
+}
+#meInTheWorld .days{
+    font-size: x-large;
+    font-weight: 600;
+}
+#meInTheWorld .hours{
+    font-size: x-large;
+    font-weight: 600;
+}
+#meInTheWorld .minutes{
+    font-size: x-large;
+    font-weight: 600;
+}
+
+#meInTheWorld .seconds{
+    font-size: 14px;
+    font-weight: 600;
+    background: #ffbfbf;
+    padding: 0 5px;
+}
+#meInTheWorld .small_strings{
+    background: white;font-weight: 800;margin-left: 2px;bottom: 1px;font-size: 12px;
+}
+
+.block-relative-fitcontet{
+    display: block;width: fit-content; position: relative;
+}
+
+.fab{
+    color: black!important;
+}
