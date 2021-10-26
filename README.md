@@ -1,4 +1,2 @@
-Heyo,
-hope everyone's doing well!!!!
-
-<h3>check my site:  👀<a href="http://orazm.live">orazm.live</a><h/3>
+Dynamic, minimalistic, and abstract landing page under my site's " about me " section.
+<h3><a href="http://mudov.com">mudov.com</a><h/3>
