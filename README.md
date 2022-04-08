@@ -1,5 +1,5 @@
 # Dynamic Landing Page design inspired by minimalistic business cards.
-### _Utilizing JavaScript to make dynamic experience
+### Utilizing JavaScript to make dynamic experience
 
 The Landing Page Project is an example of how to harness the power of JavaScript to manipulate the DOM by the following:
 
